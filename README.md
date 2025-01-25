@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p>
 <p>
-Hi!, and welcome to my first tutorial. First thing that we will need to create is a Virtual Machine "VM" using Microsoft Azure. We will be using a VM which is a remote computer, We are using a VM in order to protect our physical machine just in case something breaks. Create a resource group and title it "osTicket-vm". Afterwards create the VM with 2-4 CPUs. In this example I will be using 2 CPUs. As you can see on the image below.
+Hi and welcome to my first tutorial. The first thing that we will need to create is a Virtual Machine "VM" using Microsoft Azure. We are using a VM in order to protect our physical machine just in case something goes wrong. Create a resource group and title it "osTicket-vm". Afterwards create the VM with 2-4 CPUs. I will be using 2 CPUs as you can see on the image below.
 
 ![image](https://github.com/user-attachments/assets/1cc8aa24-9855-4863-8800-64442644bcf7)
 
@@ -60,6 +60,11 @@ Frist click on Internet Information Services "IIS" -> [X] then go to World Wide 
 ![image](https://github.com/user-attachments/assets/cada54fd-370f-4d48-bedf-26549a7b0e82)
 
 Here is a link on the files you will need for the next steps -> https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
+
+After you go to the link above and download the Zip file, you are going to un-zip and intstall the file called "PHPManagerForIIS_V1.5.0". Then install the file called "rewrite_amd64_en-US". Once you are done with this, you are going to create the directory C:\PHP (Folder) in your c: drive. The reason you are going making the new folder is because you need to un-zip a file called "php-7.3.8-nts-Win32-VC15-x86" which will go into that folder.
+
+![image](https://github.com/user-attachments/assets/b5ea5e7f-05dd-444f-880e-cb6f49b1c843)
+
 
 </p>
 <br />
