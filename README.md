@@ -59,5 +59,7 @@ Frist click on Internet Information Services "IIS" -> [X] then go to World Wide 
 
 ![image](https://github.com/user-attachments/assets/cada54fd-370f-4d48-bedf-26549a7b0e82)
 
+Here is a link on the files you will need for the next steps -> https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
+
 </p>
 <br />
