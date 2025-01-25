@@ -20,34 +20,44 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Azure Virtual Machine
+- Remote login
+- osTicket Installation
+  
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Hi!, and welcome to my first tutorial. First thing that we will need to create is a Virtual Machine "VM" using Microsoft Azure. We will be using a VM which is a remote computer, We are using a VM in order to protect our physical machine just in case something breaks. Create a resource group and title it "osTicket-vm". Afterwards create the VM with 2-4 CPUs. In this example I will be using 2 CPUs. As you can see on the image below.
+
+![image](https://github.com/user-attachments/assets/1cc8aa24-9855-4863-8800-64442644bcf7)
+
+
+The next step is going to be to remote access to that virtual machine. If you are using windows hit the start buttom and search "Remote Desktop Connection" on a Mac just search for "Microsoft Remote Desktop"
+
+
+![image](https://github.com/user-attachments/assets/3c20db7d-0a33-407b-8d27-46f18b196106)
+
+
+Don't forget to get the public IP address for the virtual machice "VM" you would need that to log into that VM. You can find it on you VM page on the "Essentials' area as you can see on the image below.
+
+![image](https://github.com/user-attachments/assets/7c5e90e9-b96c-42c2-bef5-600530f6ab92)
+
+
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+The first thing we need to do after you connect to you VM you would need to Install / Enable IIS in Windows WITH CGI. To do this click on the start menu and search "Control Panel" then click on Programs andclick on " Turn Windows features on or off". 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+![image](https://github.com/user-attachments/assets/47794452-106a-491d-b124-c70ff6f2fe5f)
+
+
+
+
+Frist click on Internet Information Services "IIS" -> [X] then go to World Wide Web Services -> Application Development Features -> [X] CGI and hit ok. Below you can see the image on what you are looking for.
+
+![image](https://github.com/user-attachments/assets/cada54fd-370f-4d48-bedf-26549a7b0e82)
+
 </p>
 <br />
