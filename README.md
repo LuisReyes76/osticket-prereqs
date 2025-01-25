@@ -65,6 +65,26 @@ After you go to the link above and download the Zip file, you are going to un-zi
 
 ![image](https://github.com/user-attachments/assets/b5ea5e7f-05dd-444f-880e-cb6f49b1c843)
 
+Next, From the “osTicket-Installation-Files” folder, install "VC_redist.x86.exe" and "mysql-5.5.62-win32.msi". When you are installing "mysql-5.5.62-win32.msi" make sure you are follow these step, Typical Setup ->
+Launch Configuration Wizard (after install) -> Standard Configuration -> Username: root and Password: root (Please don't use root in real life). This needs to be done to make osTicket work.
+
+
+Open IIS as an Admin, Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe). 
+
+![image](https://github.com/user-attachments/assets/4873df76-0b4d-4886-b4f4-183c77fbea5c)
+
+Reload IIS (Open IIS, Stop and Start the server)
+
+![image](https://github.com/user-attachments/assets/5235e635-5a90-4685-a001-1220e8bb115c)
+
+Now lets install osTicket v1.15.8
+From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”. Open IIS, Stop and Start the server. Now we are going to try and open osTicket. With IIS, Go to sites -> Default -> osTicket
+On the right, click “Browse *:80”. If you did everything right it should like the image below.
+
+![image](https://github.com/user-attachments/assets/dfd52ee3-9886-443d-aee0-90b6db718059)
+
+
 
 </p>
 <br />
