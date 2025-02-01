@@ -104,8 +104,15 @@ MySQL Username: root
 MySQL Password: root
 Click “Install Now!”
 
+![osticket](https://github.com/user-attachments/assets/3bc540e2-e589-4678-a4ef-d362741ed54f)
+
+
+![5](https://github.com/user-attachments/assets/ca414444-fc48-40b7-a92a-58ac760735ea)
+
+
 Congratulations, hopefully it is installed with no errors!
 
+![osTicket1](https://github.com/user-attachments/assets/0b7b3397-0e31-4437-a9da-3ef62c9ab2e1)
 
 </p>
 <br />
