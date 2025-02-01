@@ -90,6 +90,22 @@ Refresh the osTicket site in your browser, observe the changes
 
 ![image](https://github.com/user-attachments/assets/7375a107-3a91-4965-ac7d-d1522c31e40d)
 
+The next steps would be to Rename: ost-config.php From: "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" To: "C:\inetpub\wwwroot\osTicket\include\ost-config.php" Please make sure not to mess this part up up. Then,  Continue Setting up osTicket in the browser (click Continue). Now the third step: Assign Permissions: right click on "ost-config.php", go to properties -> Security -> Advanced and Disable inheritance -> Remove All
+New Permissions -> Everyone -> All. Continue Setting up osTicket in the browser (click Continue) and fill in all the fields, but do not fill in the datebase setting (MySQL) The Last step is getting the info for MySQL.
+From the “osTicket-Installation-Files” folder, install HeidiSQL.
+Open Heidi SQL
+Create a new session, root/root
+Connect to the session
+Create a database called “osTicket”
+
+Continue Setting up osTicket in the browser
+MySQL Database: osTicket
+MySQL Username: root
+MySQL Password: root
+Click “Install Now!”
+
+Congratulations, hopefully it is installed with no errors!
+
 
 </p>
 <br />
